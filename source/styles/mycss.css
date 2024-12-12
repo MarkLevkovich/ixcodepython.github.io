@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Lexend Deca&display=swap');
+
+body {
+    font-family: Lexend Deca, serif;
+    background-color: rgb(210, 185, 219);
+}
+
+
+.nav-link {
+    color: aliceblue;
+}
+
+.navbar-nav .nav-link.active {
+    color: blueviolet;
+}
+
+.navbar-brand img {
+    width: 55px;
+}
+
+.navbar-toggler {
+    background-color: rgb(210, 185, 219);
+}
+
+.sidebar {
+    background-color: rgb(33, 37, 41) ;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.contacts-main {
+    text-align: center;
+    background-color: rgb(33, 37, 41);
+    color: antiquewhite;
+    margin: 50px;
+    margin-right: 30%;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.slide-text, 
+.footer-text {
+    color: black;
+    margin: auto auto;
+}
+
+footer {
+    background-color: rgb(33, 37, 41);
+    margin-top: 50px;
+}
+
+.footer-text p {
+    color: white;
+}
+
+.media-links {
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators {
+        display: none;
+    }
+}
